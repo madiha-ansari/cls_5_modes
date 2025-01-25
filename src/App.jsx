@@ -3,6 +3,7 @@ import "./App.css";
 import { GoSun } from "react-icons/go";
 import { FaMoon } from "react-icons/fa";
 
+// mode app
 function App() {
   const [isLit, setLit] = useState(true);
   const changeTheme = () => {
